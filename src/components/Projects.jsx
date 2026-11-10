@@ -15,7 +15,7 @@ const projects = [
       'Architecture REST propre avec contrôleurs et repositories JPA',
       'Interface fluide et interactive avec retour visuel immédiat',
     ],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/auretho/questboard-front',
     liveUrl: null,
   },
   {
@@ -33,6 +33,21 @@ const projects = [
     githubUrl: 'https://github.com',
     liveUrl: null,
   },
+  {
+    id: 'puzzleGame',
+    title: 'Puzzle game',
+    subtitle: 'JEU DE REFLEXION ET DE LOGIQUE',
+    featured: false,
+    description:
+      'Jeu de réflexion créé en 48 heures qui comporte 10 niveaux et un chronomètre pour comparer les scores de résolution',
+    tags: ['React', 'Redux', 'Tailwind CSS', 'Lucide React'],
+    highlights: [
+      'Visualisation de cartes interactives',
+      'Calcul en temps réel des émissions CO2 comparées',
+    ],
+    githubUrl: 'https://github.com/auretho/puzzle',
+    liveUrl: 'https://puzzle.aurelie-thouzeau.me/',
+  },
 ];
 
 export default function Projects() {
@@ -44,7 +59,7 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
             <span className="text-[11px] font-mono tracking-widest text-[#B85D39] dark:text-[#E89274] uppercase block mb-2">
-              // 01. Réalisations
+              Réalisations
             </span>
             <h2 className="font-sans text-3xl md:text-4xl font-bold tracking-tight text-[#2C2523] dark:text-[#F3EFEA]">
               Projets sélectionnés

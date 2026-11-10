@@ -10,15 +10,12 @@ export default function About() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
             <span className="text-[11px] font-mono tracking-widest text-[#B85D39] dark:text-[#E89274] uppercase block mb-2">
-              // 03. Parcours
+              Parcours
             </span>
             <h2 className="font-sans text-3xl md:text-4xl font-bold tracking-tight text-[#2C2523] dark:text-[#F3EFEA]">
               À propos de moi
             </h2>
           </div>
-          <p className="text-xs text-[#6B5E5B] dark:text-[#C5BCB5] max-w-xs leading-relaxed font-sans">
-            De l'analyse rigoureuse au développement d'applications logicielles.
-          </p>
         </div>
 
         {/* Contenu en grille avec les cartes bien contrastées en mode dark */}

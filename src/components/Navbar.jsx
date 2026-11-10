@@ -19,18 +19,18 @@ export default function Navbar() {
         </a>
 
         {/* Liens de navigation */}
-        <nav className="flex items-center gap-6 text-xs font-mono">
-          <a href="#projects" className="text-[#6B5E5B] hover:text-[#2C2523] dark:text-[#C5BCB5] dark:hover:text-[#F3EFEA] transition-colors">
-            // 01. Projets
+        <nav className="flex items-center gap-8 text-s font-sans font-bold ">
+          <a href="#projects" className="text-[#D4704B]">
+            Projets
           </a>
-          <a href="#skills" className="text-[#6B5E5B] hover:text-[#2C2523] dark:text-[#C5BCB5] dark:hover:text-[#F3EFEA] transition-colors">
-            // 02. Expertise
+          <a href="#skills" className="text-[#D4704B]">
+            Expertise
           </a>
-          <a href="#about" className="text-[#6B5E5B] hover:text-[#2C2523] dark:text-[#C5BCB5] dark:hover:text-[#F3EFEA] transition-colors">
-            // 03. Parcours
+          <a href="#about" className="text-[#D4704B]">
+            Parcours
           </a>
-          <a href="#contact" className="text-[#6B5E5B] hover:text-[#2C2523] dark:text-[#C5BCB5] dark:hover:text-[#F3EFEA] transition-colors">
-            // 04. Contact
+          <a href="#contact" className="text-[#D4704B]">
+            Contact
           </a>
 
           {/* Bouton Switch Thème */}

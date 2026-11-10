@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center gap-8">
         
         <span className="text-[11px] font-mono tracking-widest text-[#B85D39] dark:text-[#E89274] uppercase">
-          // 04. Contact
+          Contact
         </span>
 
         <h2 className="font-sans text-3xl md:text-5xl font-bold tracking-tight text-[#2C2523] dark:text-[#F3EFEA] max-w-xl leading-tight">
@@ -21,7 +21,7 @@ export default function Contact() {
         {/* Bouton principal email */}
         <div className="pt-2">
           <a
-            href="mailto:aurelie@example.com"
+            href="mailto:aurelie.thouzeau@gmail.com"
             className="inline-flex items-center gap-2 bg-[#D4704B] hover:bg-[#B85D39] text-white text-xs font-sans font-semibold px-8 py-4 rounded-full shadow-md shadow-[#D4704B]/20 transition-all hover:scale-[1.02] cursor-pointer"
           >
             <Mail className="w-4 h-4" />
@@ -33,7 +33,7 @@ export default function Contact() {
         {/* Liens réseaux sociaux secondaires */}
         <div className="flex items-center gap-6 pt-6 border-t border-[#E8E0D5] dark:border-[#423D3A] w-full max-w-xs justify-center text-[#6B5E5B] dark:text-[#C5BCB5]">
           <a 
-            href="https://github.com" 
+            href="https://github.com/auretho" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-[#B85D39] dark:hover:text-[#E89274] transition-colors flex items-center gap-2 text-xs font-sans font-medium"
@@ -45,7 +45,7 @@ export default function Contact() {
           </a>
           <span className="text-[#D0C5B8] dark:text-[#423D3A]">•</span>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/athouzeau/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-[#B85D39] dark:hover:text-[#E89274] transition-colors flex items-center gap-2 text-xs font-sans font-medium"
