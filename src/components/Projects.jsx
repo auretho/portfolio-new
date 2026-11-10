@@ -4,7 +4,7 @@ import { ArrowUpRight, Sparkles, CheckCircle2 } from 'lucide-react';
 const projects = [
   {
     id: 'questboard',
-    title: 'QuestBoard',
+    title: 'Questboard',
     subtitle: 'APPLICATION KANBAN GAMIFIÉE • FULL-STACK',
     featured: true,
     description:
@@ -20,17 +20,16 @@ const projects = [
   },
   {
     id: 'greenroute',
-    title: 'GreenRoute',
+    title: 'Green Route',
     subtitle: 'CALCULATEUR D\'ITINÉRAIRES ÉCO-RESPONSABLES',
     featured: false,
     description:
       'Application cartographique permettant de comparer l\'impact carbone de différents modes de transport sur un trajet donné et d\'évaluer les alternatives les plus écologiques.',
     tags: ['React', 'Tailwind CSS', 'REST API', 'Leaflet / Maps'],
     highlights: [
-      'Visualisation de cartes interactives',
       'Calcul en temps réel des émissions CO2 comparées',
     ],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/auretho/greenroute',
     liveUrl: null,
   },
   {
@@ -39,11 +38,10 @@ const projects = [
     subtitle: 'JEU DE REFLEXION ET DE LOGIQUE',
     featured: false,
     description:
-      'Jeu de réflexion créé en 48 heures qui comporte 10 niveaux et un chronomètre pour comparer les scores de résolution',
+      'Jeu de réflexion visuel qui comporte 10 niveaux et un chronomètre pour comparer les scores de résolution',
     tags: ['React', 'Redux', 'Tailwind CSS', 'Lucide React'],
     highlights: [
-      'Visualisation de cartes interactives',
-      'Calcul en temps réel des émissions CO2 comparées',
+      'Chronomètre du temps de résolution des 10 niveaux',
     ],
     githubUrl: 'https://github.com/auretho/puzzle',
     liveUrl: 'https://puzzle.aurelie-thouzeau.me/',
